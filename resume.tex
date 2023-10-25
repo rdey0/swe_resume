@@ -112,23 +112,22 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
-    \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    \href{https://github.com/...}{\underline{github.com/jake}}
+    \textbf{\Huge \scshape Roy Dey} \\ \vspace{1pt}
+    \small \href{https://roydey.com}{\underline{roydey.com}} $|$ \href{mailto:roydey10@gmail.com}{\underline{roydey10@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/roydey}{\underline{linkedin.com/in/roydey}} $|$
+    \href{https://github.com/rdey0}{\underline{github.com/rdey0}}
 \end{center}
 
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-    \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
-  \resumeSubHeadingListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, JavaScript, C++, ReScript, HTML, CSS, Go, SQL,} \\
+     \textbf{Frameworks}{: React, Django, Graphene, GraphQL, GQLGen, Gorm, PostgreSQL, Bootstrap, AngularJS, NodeJS} \\
+     \textbf{Developer Tools}{: Git, Docker, Amazon Web Server, Retool} \\
+    }}
+ \end{itemize}
 
 
 %-----------EXPERIENCE-----------
@@ -136,12 +135,14 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+      {Software Engineer}{March 2021 -- Sep. 2022}
+      {SILQ}{San Jose, CA}
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        \resumeItem{Led implementation of purchase order system in Django, Graphene, and React to digitize itemized goods.}
+        \resumeItem{Developed a quoting system using Django and Graphene to deliver accurate freighting quotes within 2 days, and replace the manual parsing and quote calculation of freighted goods.}
+        \resumeItem{Built robust management UIs using React, allowing clients to monitor the progress of projects and shipments.}
+        \resumeItem{Developed a React Native mobile app to improve efficiency of factory QA processes and simplify inspections.}
+        \resumeItem{Built Internal dashboards and workflows using Retool to track critical metrics and record operations data.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -155,25 +156,16 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
+      {Application Developer}{July 2019 -- June 2020}
+      {University of California, Davis}{Davis, CA}
       \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+        \resumeItem{Renovated UC Davis software ecommerce website to improve user experience and mobile support.}
+        \resumeItem{Built testing platform using Angular, Bootstrap, and SQL, allowing university staff to create and administer tests with automated tools, saving 2+ hours of manual labor per week and replacing expensive vendor solutions.}
+        \resumeItem{Developed robust search tools for staff to easily track software licenses, replacing manual spreadsheet lookup.}
+        \resumeItem{Rapidly prototyped features to help university management determine future changes to web properties.}
     \resumeItemListEnd
 
-    \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
-      \resumeItemListEnd
+
 
   \resumeSubHeadingListEnd
 
@@ -181,16 +173,23 @@
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
+        \resumeProjectHeading
+              {\textbf{Restock Bot} $|$ \emph{NodeJS, JavaScript, Puppeteer}}{June 2020 -- Present}
+              \resumeItemListStart
+                \resumeItem{Developed a simple web scraping tool to send email notifications when desired items are restocked.}
+                \resumeItem{Implemented asynchronous web scraping with Puppeteer}
+                \resumeItem{Implemented email notification system with Nodemailer}
+              \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+          {\textbf{Connect 4 AI} $|$ \emph{React, JavaScript}}{June 2020 -- Present}
           \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+            \resumeItem{Developed a web application which pits players against an AI controlled opponent.}
+            \resumeItem{Wrote AI algorithms}
             \resumeItem{Visualized GitHub data to show collaboration}
             \resumeItem{Used Celery and Redis for asynchronous tasks}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+          {\textbf{Raphunt} $|$ \emph{React, JavaScript, Reddit API}}{May 2018 -- May 2020}
           \resumeItemListStart
             \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
             \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
@@ -199,19 +198,14 @@
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Davis}{Nov. 2016 -- June 2020}
+      {Bachelor of Arts in Computer Science}{Davis, CA}
+  \resumeSubHeadingListEnd
 
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
-    }}
- \end{itemize}
 
 
 %-------------------------------------------
